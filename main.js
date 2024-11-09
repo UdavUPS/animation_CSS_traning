@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector(".widget__but"),t=document.querySelector(".widget__text");var n=window.getComputedStyle(t,null);console.log(n.animationName),e.addEventListener("click",(()=>{"s"==n.animationName?t.style.animationName="d":t.style.animationName="s"}))})();
